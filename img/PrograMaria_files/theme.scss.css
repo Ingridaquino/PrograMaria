@@ -1,0 +1,197 @@
+/* General */
+/* Navbar */
+/* Buttons */
+/* Text */
+/* Home Page */
+/* Home Page benefits */
+/* Product Page */
+/* General */
+#blockColorblindContent {
+  display: none; }
+
+html.turbolinks-progress-bar::before {
+  background-color: #4bbb83; }
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif, sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9; }
+
+.page {
+  background-color: #f9f9f9; }
+
+/* Text */
+h1, h2 {
+  font-family: "Roboto"; }
+  h1 *, h2 * {
+    color: #585858; }
+
+h3, h4, h5 {
+  font-family: "Proxima Nova"; }
+  h3 *, h4 *, h5 * {
+    color: #585858; }
+
+h1 * {
+  font-size: 41.6px; }
+
+h2 * {
+  font-size: 32px; }
+
+h3 * {
+  font-size: 26px; }
+
+h4 * {
+  font-size: 20px; }
+
+h5 * {
+  font-size: 14px; }
+
+p {
+  font-family: "Roboto";
+  font-size: 16px; }
+  p * {
+    color: #585858; }
+
+a {
+  color: #db23ad; }
+
+.page-footer {
+  background-color: #0f2e45; }
+  .page-footer * {
+    color: #ffffff; }
+  .page-footer a * {
+    color: #faa51b; }
+  .page-footer a:hover * {
+    color: white; }
+  .page-footer b * {
+    color: white; }
+  .page-footer h2 * {
+    color: white; }
+
+/* Navbar */
+header.navbar {
+  background-color: #103248; }
+  header.navbar a,
+  header.navbar .dropdown a {
+    color: rgba(255, 255, 255, 0.6); }
+    header.navbar a:hover, header.navbar a:focus,
+    header.navbar .dropdown a:hover,
+    header.navbar .dropdown a:focus {
+      color: #ffffff; }
+  header.navbar .nav a {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6); }
+  header.navbar .dropdown-menu {
+    background-color: #133b55; }
+    header.navbar .dropdown-menu:before {
+      background-color: #133b55; }
+    header.navbar .dropdown-menu li a:hover {
+      background-color: #103248; }
+
+/* Buttons */
+.btn {
+  font-family: "Roboto"; }
+  .btn * {
+    font-size: 16px; }
+
+.btn-default {
+  background-color: #2e2182;
+  border-color: #181245; }
+  .btn-default * {
+    color: #ffffff; }
+  .btn-default:hover, .btn-default:focus {
+    background-color: #271c6e;
+    border-color: #271c6e; }
+  .btn-default:active, .btn-default:active:hover {
+    background-color: #221961;
+    border-color: #221961; }
+
+.open > .btn-default.dropdown-toggle, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle:hover {
+  background-color: #221961;
+  border-color: #221961; }
+
+.btn-primary {
+  background-color: #734aba;
+  border-color: #734aba; }
+  .btn-primary * {
+    color: #ffffff; }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #815cc1;
+    border-color: #815cc1; }
+  .btn-primary:active, .btn-primary:active:hover {
+    background-color: #603c9f;
+    border-color: #603c9f; }
+
+.open > .btn-primary.dropdown-toggle, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
+  background-color: #603c9f;
+  border-color: #603c9f; }
+
+/* List Group */
+.list-group .list-group-item.active {
+  background-color: #734aba;
+  border-color: #734aba;
+  color: #222; }
+
+/* Home Page */
+.home-page .home-header {
+  background-color: #ffffff;
+  background-image: url("https://edools-3-production.s3.amazonaws.com/org-7862%2Fschool-8411%2F928f367c84bdad826a18bba8ab2730af%2Fcapa--edools.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .home-page .home-header * {
+    color: #4a4a4a; }
+.home-page .home-benefits .media .benefits-icon {
+  color: #585858; }
+.home-page .home-benefits .media h2 {
+  color: #585858; }
+.home-page .home-benefits .media p {
+  color: #585858; }
+
+/* Product Page */
+.product-page .product-header {
+  background-color: #0f2e45;
+  background-image: url("https://edools-3-production.s3.amazonaws.com/org-7862%2Fschool-8411%2Fdef5d821e4643ce4b0854587996eb05a%2Fcapa-edools-produto.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .product-page .product-header h2,
+  .product-page .product-header h4,
+  .product-page .product-header p,
+  .product-page .product-header .installments,
+  .product-page .product-header .price {
+    color: #ffffff; }
+  .product-page .product-header .installments {
+    padding-bottom: 15px; }
+
+/* Lesson Page */
+.lesson-page .lesson-page-sidebar .course-content .lesson.active.active {
+  box-shadow: 1px 0 0 0 #734aba;
+  border-left: 1px solid #734aba; }
+.lesson-page .lesson-page-sidebar .course-content .lesson.active .content-lesson .class-info .left i:after {
+  border-color: #ac94d6; }
+.lesson-page .lesson-page-sidebar .course-content .lesson.active .content-lesson .class-info .lesson-title:hover span {
+  background-color: rgba(115, 74, 186, 0.8); }
+.lesson-page .lesson-tabs .nav-tabs .active a, .lesson-page .lesson-tabs .nav-tabs .active a:hover, .lesson-page .lesson-tabs .nav-tabs .active a:focus, .lesson-page .lesson-tabs .nav-tabs .active a:active {
+  color: #734aba;
+  border-color: #734aba; }
+
+/* Course Content Page */
+.course-container .title.active > a, .course-container .title.active > a:focus, .course-container .title.active > a:hover {
+  color: #734aba;
+  border-color: #734aba; }
+
+.course-content-busy .busy {
+  border-color: rgba(115, 74, 186, 0.5); }
+  .course-content-busy .busy:before, .course-content-busy .busy:after {
+    background: #734aba; }
+
+#js-course-tree-ajax .content-lesson:not(.active) .lesson-title span {
+  color: #734aba; }
+#js-course-tree-ajax .list-group-item.module:hover .icon {
+  color: #734aba; }
+#js-course-tree-ajax .icon-check.js-completed-icon {
+  color: #734aba; }
+#js-course-tree-ajax .busy {
+  border-color: rgba(115, 74, 186, 0.5); }
+  #js-course-tree-ajax .busy:before, #js-course-tree-ajax .busy:after {
+    background: #734aba; }
